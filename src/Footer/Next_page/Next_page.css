@@ -1,0 +1,118 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400&display=swap');
+
+        .about-section {
+          background-color: rgb(18, 20, 22);
+          color: #ffffff;
+          width: 100%;
+          min-height: 301px;
+          padding: 47px 59px;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          font-family: 'Barlow', sans-serif;
+          user-select: none;
+        }
+
+        .about-section__top {
+          display: flex;
+          justify-content: flex-start;
+        }
+
+        .about-section__label {
+          font-size: 11px;
+          font-weight: 400;
+          letter-spacing: 0.08em;
+          line-height: 1.6;
+          color: rgba(255, 255, 255, 0.7);
+          text-transform: uppercase;
+          margin: 0;
+        }
+
+        .about-section__middle {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex: 1;
+          padding: 16px 0 8px;
+        }
+
+        .about-section__title {
+          font-family: 'Bebas Neue', sans-serif;
+          font-size: clamp(48px, 6vw, 80px);
+          font-weight: 400;
+          letter-spacing: 0.01em;
+          line-height: 1;
+          color: #ffffff;
+          margin: 0;
+        }
+
+        .about-section__next {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          background: none;
+          border: none;
+          cursor: pointer;
+          color: rgba(255, 255, 255, 0.9);
+          font-family: 'Barlow', sans-serif;
+          font-size: 12px;
+          font-weight: 400;
+          letter-spacing: 0.14em;
+          text-transform: uppercase;
+          padding: 0;
+          transition: opacity 0.2s;
+        }
+
+        .about-section__next:hover {
+          opacity: 0.6;
+        }
+
+        .about-section__next:hover .about-section__next-arrow {
+          transform: translateX(5px);
+        }
+
+        .about-section__next-line {
+          width: 80px;
+          height: 1px;
+          background: rgba(255, 255, 255, 0.4);
+        }
+
+        .about-section__next-arrow {
+          font-size: 18px;
+          line-height: 1;
+          transition: transform 0.25s ease;
+        }
+
+        .about-section__bottom {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .about-section__plus {
+          background: none;
+          border: none;
+          cursor: pointer;
+          color: rgba(255, 255, 255, 0.6);
+          font-size: 22px;
+          font-weight: 300;
+          line-height: 1;
+          padding: 4px 8px;
+          transition: color 0.2s, transform 0.2s;
+        }
+
+        .about-section__plus:hover {
+          color: #ffffff;
+          transform: scale(1.2);
+        }
+
+        @media (max-width: 768px) {
+          .about-section {
+            padding: 40px 24px;
+          }
+
+          .about-section__next-line {
+            width: 48px;
+          }
+        }
