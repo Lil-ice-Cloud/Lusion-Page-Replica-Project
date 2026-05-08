@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  
+  srcDir: 'app',
+  spaLoadingTemplate: 'spa-loading-template.html',
 
   devtools: { enabled: true },
 
