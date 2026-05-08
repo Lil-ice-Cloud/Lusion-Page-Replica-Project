@@ -69,6 +69,8 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted, onUnmounted } from 'vue'
+
 const works = [
   { bg: '#ccc', tags: 'CONCEPT • WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION', title: 'Oryzo AI' },
   { bg: '#222', tags: 'WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION', title: 'Of The Oak' },
