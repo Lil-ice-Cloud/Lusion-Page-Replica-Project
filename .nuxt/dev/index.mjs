@@ -2204,7 +2204,22 @@ _Hd8mZSatyMynS4gK9dpxcOvDRCjE3W5q8jYoJm_DpE,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
-const assets = {};
+const assets = {
+  "/index.mjs": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"1afe1-P80gyBDjJzebd805dnQ1yyp4CRc\"",
+    "mtime": "2026-05-11T12:23:54.357Z",
+    "size": 110561,
+    "path": "index.mjs"
+  },
+  "/index.mjs.map": {
+    "type": "application/json",
+    "etag": "\"69b06-a7+DZAOjJr3DrLoJihexJEm1DHc\"",
+    "mtime": "2026-05-11T12:23:54.357Z",
+    "size": 432902,
+    "path": "index.mjs.map"
+  }
+};
 
 function readAsset (id) {
   const serverDir = dirname$1(fileURLToPath(globalThis._importMeta_.url));
@@ -3018,7 +3033,7 @@ const client_manifest$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineP
   default: client_manifest
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const template = "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Loading...</title>\n</head>\n<body>\n  <div id=\"loading-screen\">\n    <div class=\"loading-container\">\n      <div class=\"loader\"></div>\n      <p class=\"loading-text\">Loading......</p>\n    </div>\n  </div>\n\n  <style>\n    * {\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n    }\n\n    body {\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n      background: #000;\n      height: 100vh;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      overflow: hidden;\n    }\n\n    #loading-screen {\n      position: fixed;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      background: #000;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      z-index: 9999;\n    }\n\n    .loading-container {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      gap: 30px;\n    }\n\n    .loader {\n      position: relative;\n      width: 50px;\n      height: 50px;\n      border: 4px solid rgba(255, 255, 255, 0.3);\n      border-top-color: white;\n      border-radius: 50%;\n      animation: spin 0.8s linear infinite;\n    }\n\n    .loader::before {\n      content: '';\n      position: absolute;\n      top: -4px;\n      left: -4px;\n      right: -4px;\n      bottom: -4px;\n      border: 2px solid transparent;\n      border-right-color: rgba(255, 255, 255, 0.5);\n      border-radius: 50%;\n      animation: spin 1.2s linear infinite reverse;\n    }\n\n    .loading-text {\n      color: white;\n      font-size: 18px;\n      font-weight: 500;\n      letter-spacing: 2px;\n      animation: pulse 1.5s ease-in-out infinite;\n    }\n\n    @keyframes spin {\n      to {\n        transform: rotate(360deg);\n      }\n    }\n\n    @keyframes pulse {\n      0%, 100% {\n        opacity: 1;\n      }\n      50% {\n        opacity: 0.5;\n      }\n    }\n\n    @media (prefers-reduced-motion: reduce) {\n      .loader,\n      .loader::before,\n      .loading-text {\n        animation: none;\n      }\n    }\n  </style>\n\n  <script>\n    // Keep loading screen visible for at least 3 seconds\n    window.addEventListener('load', function() {\n      setTimeout(function() {\n        const loadingScreen = document.getElementById('loading-screen');\n        if (loadingScreen) {\n          loadingScreen.style.opacity = '0';\n          loadingScreen.style.transition = 'opacity 0.5s ease-out';\n          setTimeout(function() {\n            loadingScreen.style.display = 'none';\n          }, 500);\n        }\n      }, 3000);\n    });\n  </script>\n</body>\n</html>";
+const template = "";
 
 const _virtual__spaTemplate = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
