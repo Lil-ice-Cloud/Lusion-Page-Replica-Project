@@ -31,4 +31,6 @@ export { requestIdleCallback, cancelIdleCallback } from '#app/compat/idle-callba
 export { setInterval } from '#app/compat/interval';
 export { definePageMeta, PageMeta } from '#app/composables/pages';
 export { defineLazyHydrationComponent } from '#app/composables/lazy-hydration';
+export { useCameraManager, useGraph, useLoader, useLoop, useRendererManager, useTres, useTresContext, useTresContextProvider, extend as extendTres, TresObject } from '@tresjs/core';
+export { extractBindingPosition, hasSetter, pick, useAnimations, useBVH, useEnvironment, useFBO, useFBX, useGLTF, useGLTFExporter, useIntersect, useMask, useProgress, useSVG, useSurfaceSampler, useTexture, useTextures, useVideoTexture } from '@tresjs/cientos';
 export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';

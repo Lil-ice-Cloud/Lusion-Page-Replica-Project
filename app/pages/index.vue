@@ -8,7 +8,7 @@
     </div>
 
     <div class="hero__container">
-      <div class="hero__visual">
+      <div class="hero__visual">                         <TresCanvas />
         <div class="hero__visual-frame">
           <!-- Replace with your actual hero visual / Three.js canvas -->
           <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);display:flex;align-items:center;justify-content:center;">

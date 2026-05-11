@@ -6,10 +6,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  
+
   srcDir: 'app',
   spaLoadingTemplate: 'spa-loading-template.html',
-
   devtools: { enabled: true },
 
   // CSS lives under app/assets/ now — Nuxt resolves ~ from srcDir (app/)
@@ -25,4 +24,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  modules: ['@tresjs/nuxt'],
 })
