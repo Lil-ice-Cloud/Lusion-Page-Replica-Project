@@ -63,6 +63,14 @@
       </div>
     </div>
   </section>
+  <div class = "space_section">
+    <div class="seen_container ">
+      <div class="seen_visual">
+          <TresCanvas />
+          </div>
+      </div>
+    </div>
+
 
   <NextPage />
   <TheFooter />
