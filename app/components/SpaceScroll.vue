@@ -1,24 +1,11 @@
 <template>
-  <!--
-    ┌─────────────────────────────────────────────────────────────────┐
-    │  SpaceScroll.vue — self-contained section, Nuxt 4 / Three.js   │
-    │  Canvas is sticky INSIDE this section only.                     │
-    │  Your page content above & below is completely unaffected.      │
-    └─────────────────────────────────────────────────────────────────┘
-
-    Usage in any page or layout:
-
-      <YourHeader />
-      <SpaceScroll />        ← sits exactly here, like any other section
-      <YourFooter />
-  -->
   <section class="ss-section" ref="sectionRef">
 
-    <!-- The canvas sticks to the viewport ONLY while this section is in view -->
+
     <div class="ss-sticky">
       <canvas ref="canvasRef" class="ss-canvas" />
 
-      <!-- Chapter text overlays (fade in/out per chapter) -->
+
       <div class="ss-overlay">
 
         <transition name="fade">
@@ -90,11 +77,7 @@
       </div>
     </div>
 
-    <!--
-      Scroll spacer — this is what creates the scroll distance.
-      Each chapter gets one viewport height of scroll room.
-      Total = 5 chapters × 100vh = 500vh of scroll inside this section.
-    -->
+
     <div class="ss-spacer" />
 
   </section>
@@ -107,7 +90,7 @@ import * as THREE from 'three'
 // ── Refs ─────────────────────────────────────────────────────────────────────
 const sectionRef = ref(null)
 const canvasRef  = ref(null)
-const chapter    = ref(0)          // 0-4, drives the v-if text transitions
+const chapter    = ref(0)
 
 // ── Three.js state ───────────────────────────────────────────────────────────
 let renderer, scene, camera, clock, animId
@@ -121,7 +104,7 @@ const lerp      = (a, b, t) => a + (b - a) * t
 const clamp01   = (v)       => Math.max(0, Math.min(1, v))
 const easeInOut = (t)       => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t
 
-/** Return progress 0→1 within a sub-range of the overall 0→1 progress */
+
 const subProgress = (p, start, end) => clamp01((p - start) / (end - start))
 
 // ── Three.js builders ────────────────────────────────────────────────────────
@@ -341,14 +324,11 @@ onBeforeUnmount(() => {
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400&display=swap');
 
 /* ── Section shell ───────────────────────────────────────────────────────── */
-/*
-   position:relative + a tall spacer = the section owns its own scroll budget.
-   Nothing outside this section is touched.
-*/
+
 .ss-section {
   position: relative;
   width: 100%;
-  /* background matches the canvas clear colour so edges blend seamlessly */
+
   background: #00000a;
 }
 
@@ -358,10 +338,7 @@ onBeforeUnmount(() => {
 }
 
 /* ── Sticky viewport frame ───────────────────────────────────────────────── */
-/*
-   sticky + height:100vh means the canvas viewport "locks" while you scroll
-   through the spacer, then releases when you leave the section.
-*/
+
 .ss-sticky {
   position: sticky;
   top: 0;
