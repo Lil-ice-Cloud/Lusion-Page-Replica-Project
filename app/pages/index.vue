@@ -38,6 +38,10 @@
       <p> Brought to Life</p>
     </div>
   </section>
+  <div class="SVG-description">
+    <p class="SVG-description-title">We combine design, motion, 3D, and development to create digital experiences that feel visually striking and technically seamless. From campaign launches to immersive brand worlds, we build work that captures attention and invites interaction.
+    </p>
+  </div>
 
 
   <!-- Featured Work header -->

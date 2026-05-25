@@ -328,6 +328,15 @@ body {
   letter-spacing: -2px;
   text-align: end;
 }
+.SVG-description{
+  max-width: 800px;
+  margin-left: auto;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  padding-right: 80px;
+}
 
 /* ================================
    FEATURED WORK
@@ -806,5 +815,13 @@ body {
     line-height: 1.2;
     letter-spacing: -1px;
     text-align: start;
+  }
+}
+@media (max-width: 768px) {
+  .SVG-description {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 0;
+    padding-right: 0;
   }
 }
