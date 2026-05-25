@@ -8,7 +8,8 @@
     </div>
 
     <div class="hero__container">
-      <div class="hero__visual">                         <TresCanvas />
+      <div class="hero__visual">
+        <TresCanvas />
         <div class="hero__visual-frame">
           <!-- Replace with your actual hero visual / Three.js canvas -->
           <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);display:flex;align-items:center;justify-content:center;">
@@ -38,11 +39,24 @@
       <p> Brought to Life</p>
     </div>
   </section>
+
+  <section>
+
   <div class="SVG-description">
     <p class="SVG-description-title">We combine design, motion, 3D, and development to create digital experiences that feel visually striking and technically seamless. From campaign launches to immersive brand worlds, we build work that captures attention and invites interaction.
     </p>
+<br>
+    <button class="OURAPPROACH-btn">
+      <span class="OURAPPROACH-dot"></span>
+      <span class="OURAPPROACH-text"> OUR APPROACH </span>
+      <span class="btn-arrow">
+          <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 6H22M22 6L17 1M22 6L17 11" stroke="currentColor" stroke-width="1.5" />
+          </svg>
+      </span>
+    </button>
   </div>
-
+  </section>
 
   <!-- Featured Work header -->
   <section class="featured-work">
@@ -77,14 +91,9 @@
     </div>
   </section>
 
-    <div class = "space_section">
-      <div class="seen_container ">
-        <div class="seen_visual">
-          <TresCanvas />
-        </div>
-      </div>
-    </div>
-
+  <section>
+    <SpaceScroll />
+  </section>
 
   <NextPage />
   <TheFooter />

@@ -15,6 +15,7 @@ type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {},
 
 
 export const NextPage: typeof import("../app/components/NextPage.vue")['default']
+export const SpaceScroll: typeof import("../app/components/SpaceScroll.vue")['default']
 export const TheFooter: typeof import("../app/components/TheFooter.vue")['default']
 export const TheNavbar: typeof import("../app/components/TheNavbar.vue")['default']
 export const TresCanvas: typeof import("../app/components/TresCanvas.vue")['default']
@@ -132,6 +133,7 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const LazyNextPage: LazyComponent<typeof import("../app/components/NextPage.vue")['default']>
+export const LazySpaceScroll: LazyComponent<typeof import("../app/components/SpaceScroll.vue")['default']>
 export const LazyTheFooter: LazyComponent<typeof import("../app/components/TheFooter.vue")['default']>
 export const LazyTheNavbar: LazyComponent<typeof import("../app/components/TheNavbar.vue")['default']>
 export const LazyTresCanvas: LazyComponent<typeof import("../app/components/TresCanvas.vue")['default']>
