@@ -1,0 +1,9 @@
+{
+  "pid": 30844,
+  "startedAt": 1779726358109,
+  "command": "dev",
+  "cwd": "C:/Users/Malindu/Downloads/Lusion-Page-Replica-Project-SVG-Line/Lusion-Page-Replica-Project-SVG-Line",
+  "port": 3000,
+  "hostname": "::1",
+  "url": "http://[::1]:3000"
+}
