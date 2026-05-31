@@ -225,7 +225,7 @@ onBeforeUnmount(() => {
 <style scoped>
 .threejs-section {
   position: relative;
-  width: 100vh;
+  width: 200vh;
   height: 65vh;      /* ← adjust to your desired section height */
 }
 .threejs-canvas {
