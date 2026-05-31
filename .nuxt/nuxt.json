@@ -1,9 +1,9 @@
 {
-  "_hash": "XmY2AqT3HzS52ijh8Gjdb7OWjssMlluPsTI6aTbzY2Q",
+  "_hash": "CitGpZVCHveYbrmogq3DTdwi6FOELi5YEFMz66nrWgU",
   "project": {
     "rootDir": "/home/asus_gaming/WebstormProjects/Lusion-Page-Replica-Project"
   },
   "versions": {
-    "nuxt": "4.4.4"
+    "nuxt": "4.4.6"
   }
 }

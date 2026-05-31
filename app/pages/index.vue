@@ -25,7 +25,7 @@
       </div>
     </div>
   </section>
-
+  <SVGart/>
   <!-- SVG Line Animation -->
   <section class="hero-container">
     <div class="text-container">
@@ -95,6 +95,7 @@
 
 <script setup lang="ts">
 import { onMounted, onUnmounted } from 'vue'
+import SVGart from "../components/SVGart.vue";
 
 const works = [
   { bg: '#ccc', tags: 'CONCEPT • WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION', title: 'Oryzo AI' },
@@ -119,8 +120,8 @@ onMounted(() => {
     { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
   )
 
-  const els = document.querySelectorAll('.reveal-on-scroll')
-  els.forEach((el) => observer.observe(el))
+  const els = document.querySelectorAll('.reveal-on-scroll');
+  els.forEach((el) => observer.observe(el));
 
   onUnmounted(() => els.forEach((el) => observer.unobserve(el)))
 })
