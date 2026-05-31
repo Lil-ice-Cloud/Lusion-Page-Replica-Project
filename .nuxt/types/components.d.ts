@@ -18,6 +18,7 @@ interface _GlobalComponents {
   SpaceScroll: typeof import("../../app/components/SpaceScroll.vue")['default']
   TheFooter: typeof import("../../app/components/TheFooter.vue")['default']
   TheNavbar: typeof import("../../app/components/TheNavbar.vue")['default']
+  ThreeJsSection: typeof import("../../app/components/ThreeJsSection.vue")['default']
   TresCanvas: typeof import("../../app/components/TresCanvas.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   NuxtLayout: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -136,6 +137,7 @@ interface _GlobalComponents {
   LazySpaceScroll: LazyComponent<typeof import("../../app/components/SpaceScroll.vue")['default']>
   LazyTheFooter: LazyComponent<typeof import("../../app/components/TheFooter.vue")['default']>
   LazyTheNavbar: LazyComponent<typeof import("../../app/components/TheNavbar.vue")['default']>
+  LazyThreeJsSection: LazyComponent<typeof import("../../app/components/ThreeJsSection.vue")['default']>
   LazyTresCanvas: LazyComponent<typeof import("../../app/components/TresCanvas.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   LazyNuxtLayout: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>

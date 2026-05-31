@@ -9,12 +9,9 @@
 
     <div class="hero__container">
       <div class="hero__visual">
-        <TresCanvas />
+        <ThreeJsSection />
         <div class="hero__visual-frame">
           <!-- Replace with your actual hero visual / Three.js canvas -->
-          <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);display:flex;align-items:center;justify-content:center;">
-            <span style="color:rgba(255,255,255,0.15);font-size:12px;letter-spacing:0.3em;text-transform:uppercase;">Hero Visual</span>
-          </div>
         </div>
       </div>
     </div>

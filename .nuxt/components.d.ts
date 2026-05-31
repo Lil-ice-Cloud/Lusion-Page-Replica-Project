@@ -18,6 +18,7 @@ export const NextPage: typeof import("../app/components/NextPage.vue")['default'
 export const SpaceScroll: typeof import("../app/components/SpaceScroll.vue")['default']
 export const TheFooter: typeof import("../app/components/TheFooter.vue")['default']
 export const TheNavbar: typeof import("../app/components/TheNavbar.vue")['default']
+export const ThreeJsSection: typeof import("../app/components/ThreeJsSection.vue")['default']
 export const TresCanvas: typeof import("../app/components/TresCanvas.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -136,6 +137,7 @@ export const LazyNextPage: LazyComponent<typeof import("../app/components/NextPa
 export const LazySpaceScroll: LazyComponent<typeof import("../app/components/SpaceScroll.vue")['default']>
 export const LazyTheFooter: LazyComponent<typeof import("../app/components/TheFooter.vue")['default']>
 export const LazyTheNavbar: LazyComponent<typeof import("../app/components/TheNavbar.vue")['default']>
+export const LazyThreeJsSection: LazyComponent<typeof import("../app/components/ThreeJsSection.vue")['default']>
 export const LazyTresCanvas: LazyComponent<typeof import("../app/components/TresCanvas.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
