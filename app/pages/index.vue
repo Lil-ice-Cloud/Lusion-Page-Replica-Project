@@ -10,9 +10,6 @@
     <div class="hero__container">
       <div class="hero__visual">
         <ThreeJsSection />
-        <div class="hero__visual-frame">
-          <!-- Replace with your actual hero visual / Three.js canvas -->
-        </div>
       </div>
     </div>
 
