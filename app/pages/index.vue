@@ -114,11 +114,12 @@
       <p class="where-creative_title reveal-on-scroll">Where Creative ideas <br> Become Immersive <br> Experiences</p>
 
   </section>
-  <p class="where-creative_description reveal-on-scroll">
-    We do not chase trends or produce work that looks like everyone else. We focus on creating visually distinctive digital experiences that reflect your brand, engage your audience, and make people remember what they saw.
-
-    Our process blends creative direction, 3D craft, and interactive development to build tailored digital journeys that feel original, polished, and built for impact.
-  </p>
+  <div class="SVG-description">
+    <p class="SVG-description-title">
+      We do not chase trends or produce work that looks like everyone else. We focus on creating visually distinctive digital experiences that reflect your brand, engage your audience, and make people remember what they saw.
+      Our process blends creative direction, 3D craft, and interactive development to build tailored digital journeys that feel original, polished, and built for impact.
+    </p>
+  </div>
 
   <section>
     <SpaceScroll />
