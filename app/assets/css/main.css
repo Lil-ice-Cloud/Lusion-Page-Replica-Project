@@ -319,6 +319,36 @@ body {
   align-items: center;
 }
 
+.squiggle-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.squiggle-container .squiggle-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  max-width: 1922px;
+  pointer-events: none;
+  z-index: 0;
+  display: block;
+}
+
+.squiggle-container .squiggle-wrapper svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.hero-container .text-container {
+  position: relative;
+  z-index: 1;
+}
+
 .text-container {
   font-family: 'DM Sans', sans-serif;
   font-size: 180px;

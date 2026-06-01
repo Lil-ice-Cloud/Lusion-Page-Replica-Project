@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default ({
+export default defineNuxtConfig({
   compatibilityDate: '2025-05-08',
 
   // Opt into Nuxt 4 behaviour (app/ as srcDir, new fetch/data defaults, etc.)
@@ -23,6 +23,12 @@ export default ({
         },
       ],
     },
+  },
+
+  vite: {
+    server: {
+      allowedHosts: true,
+    }
   },
 
   modules: ['@tresjs/nuxt'],
