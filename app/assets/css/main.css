@@ -528,6 +528,16 @@ body {
   transform: translateX(6px) translateY(-2px);
 }
 
+.where-creative{
+  font-size: clamp(160px, 8vw, 110px);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 0.8;
+  color: #0a0a0a;
+  margin: 0;
+  white-space: nowrap;
+}
+
 /* Scroll Animations */
 .reveal-on-scroll {
   opacity: 0;

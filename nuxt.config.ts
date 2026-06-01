@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default ({
   compatibilityDate: '2025-05-08',
 
   // Opt into Nuxt 4 behaviour (app/ as srcDir, new fetch/data defaults, etc.)
