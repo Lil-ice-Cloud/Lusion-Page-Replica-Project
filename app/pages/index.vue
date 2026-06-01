@@ -177,7 +177,7 @@ const works = [
   {
     bg: "#ccc",
     tags: "CONCEPT • WEB • DESIGN • DEVELOPMENT • 3D • ANIMATION",
-    title: "Oryzo AI",
+    title: "Orzo AI",
   },
   {
     bg: "#222",
